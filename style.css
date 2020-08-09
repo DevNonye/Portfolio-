@@ -65,16 +65,17 @@ body {
   color: white;
 }
 #header {
-	height: 244px; padding: 52px 0 0 57px;
-	background: ;
+	height: 244px; 
+        padding: 52px 0 0 57px;
+
 }
 
 	#header h1 {
-		font: 38px Georgia, Serif; color: #f2f0eb; letter-spacing: 2px; margin: 0 0 20px 0;
+		font: 38px Georgia, Serif; color: black; letter-spacing: 2px; margin: 0 0 20px 0;
 		text-shadow: 0px 3px 3px #494949;
 	}
 	#header h2 {
-		width: 510px; font: 30px Georgia, Serif; color: #f2f0eb; letter-spacing: 2px; margin: 0 0 20px 0;
+		width: 510px; font: 30px Georgia, Serif; color: black; letter-spacing: 2px; margin: 0 0 20px 0;
 		text-shadow: 0px 3px 3px #494949;
 	}
 	#header p.btn a {
@@ -83,10 +84,12 @@ body {
 	}
 	
 #content {
-	padding: 57px 69px 50px 69px; overflow: hidden;
+	padding: 57px 69px 50px 69px; 
+        overflow: hidden;
 }
 	#content h2 {
-		font: 30px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;
+		font: 30px Georgia, Serif; 
+                letter-spacing: 2px; margin: 0 0 20px 0;
 	}
 
 	#content h3 {
@@ -166,7 +169,7 @@ body {
 		#footer a:hover {
 			color: #671111;
 		}
-media only screen and (max-width: 400px){
+media only screen and (max-width: 600px){
     main {
         width: 100%;
     }
@@ -179,7 +182,7 @@ media only screen and (max-width: 400px){
 @media only screen and (min-width: 401px) and (max-width: 524px) {
  
     main {
-        width: 70%;
+        width: 100%;
     }
 
     content  {
@@ -189,7 +192,7 @@ media only screen and (max-width: 400px){
 
 @media only screen and  (min-width: 525px) and (max-width: 760px) {
     main {
-        width: 50%;
+        width: 100%;
     }
     content {
         flex: 1 1 33%;
