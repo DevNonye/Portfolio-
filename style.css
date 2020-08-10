@@ -37,6 +37,7 @@ nav{
   text-transform: uppercase;
 }
 main{
+  width: fit-content;
   padding-top: 6em;
   display: grid;
   grid-gap: 20px;
@@ -189,6 +190,10 @@ media only screen and (max-width: 600px){
     main {
         width: 100%;
     }
+    .portfolio-items {
+        flex: 1 1 33%;
+    }
+   
 }
 
 @media only screen and (min-width: 401px) and (max-width: 524px) {
@@ -196,10 +201,17 @@ media only screen and (max-width: 600px){
     main {
         width: 100%;
     }
+
+    .portfolio-items {
+        flex: 1 1 33%;
+    }
 }
 
 @media only screen and  (min-width: 525px) and (max-width: 760px) {
     main {
         width: 100%;
+    }
+    .portfolio-items {
+        flex: 1 1 33%;
     }
 }
