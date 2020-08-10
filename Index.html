@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<main>
-<section>
-<ul id="nav">
-	<li><a href="index.html" class="active">Home</a></li>
-	<li><a href="about.html" class="about">About</a></li>
-	<li><a href="project.html" class="project">Project</a></li>
-	<li><a href="content.html" class="contact">Contact</a></li>
-</ul>
-<div class="image-section">
-<a href="#"><img src="Nonye logo.jpg" alt="logo" /></a></p>
-</div>
-</section>
-<section id="header">
-	<h1>Hello, I'm Abonyi Chinonye.</h1>
-	<h2>I develop websites that are beautiful on both the inside and out.</h2>
-	
-	<p class="btn"><a href="#">View my latest work</a></p>
-</section>
+	<nav>
+		<ul id="nav">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about-me" class="about">About</a></li>
+			<li><a href="#my-work" class="project">Project</a></li>
+			<li><a href="#footer" class="contact">Contact</a></li>
+		</ul>
 
-<section id="content">
-  <article>
-	<h3>About me</h3>
-	
-	<p>I earn a living by creating custom brands and logo designs from scratch, as well as designing and building high quality websites and blogs, but I also enjoy producing the odd t-shirt graphic, illustration or character design. I pride myself in having the nerdy skills to build top notch creations online, as well as being knowledgeable in the print side of design.</p>
-	</article>
+	</nav>
+	<main class="body-container">
+		<img id = "home" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80"
+			alt="">
+		<section id="header">
+			<h1>Hello, I'm Abonyi Chinonye!</h1>
+			<h2>I develop websites that are beautiful and responsive on both the inside and out.</h2>
+			<button><a href="portfolio.html">View my latest work</a></button>
+		</section>
 
-	<article>
-	<h3>My Projects</h3>
-	
-	<p>I’m forever creating design work for both myself as personal projects and as a hired developer  for clients from around the world. Here’s a few of my most recent works.</p>
-	</article>
-	
-</section>
+		<section class="content" id="about-me">
+			<article>
+				<h3>About me</h3>
 
-<section id="footer">
-        <div>
-	  <h2 id="connect">Let's connect on social media</h2>
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-          <a href="#" class="fa fa-github"></a>
-	  <p id="back-top"><a href="#">Going up?</a></p>
-   </div>
-</section>
-</main>
+				<p>I earn a living by creating custom brands and logo designs from scratch, as well as designing and
+					building high quality websites and blogs, but I also enjoy producing the odd t-shirt graphic,
+					illustration or character design. I pride myself in having the nerdy skills to build top notch
+					creations online, as well as being knowledgeable in the print side of design.</p>
+			</article>
+
+			<article id="my-work">
+				<h3>My latest work</h3>
+
+				<p>I’m forever creating design work for both myself as personal projects and as a hired developer for
+					clients from around the world. Here’s a few of my most recent works.</p>
+			</article>
+			<div class="portfolio-item">
+				<a href="#"><img
+						src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80"
+						alt="View more info" /></a>
+				<h2>ToDo list</h2>
+			</div>
+			<div class="portfolio-item">
+				<a href="#"><img
+						src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80"
+						alt="View more info" /></a>
+				<h2>Jacques Log</h2>
+			</div>
+			<div class="portfolio-item">
+				<a href="#"><img
+						src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80"
+						alt="View more info" /></a>
+				<h2>Design</h2>
+			</div>
+
+		</section>
+	</main>
+	<footer id="footer" class="body-container content">
+		<h3 id="connect">Let's connect on social media</h3>
+		<div>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-github"></a>
+		</div>
+		
+	</footer>
+	<button id="go-up"><a href="#">Going up? Click me</a></button>
 </body>
+
 </html>
