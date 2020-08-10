@@ -185,3 +185,21 @@ article p{
   color: #10ACAF;
   font-weight: bold;
 }
+media only screen and (max-width: 600px){
+    main {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 524px) {
+ 
+    main {
+        width: 100%;
+    }
+}
+
+@media only screen and  (min-width: 525px) and (max-width: 760px) {
+    main {
+        width: 100%;
+    }
+}
