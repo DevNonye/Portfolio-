@@ -2,6 +2,7 @@ html{
   box-sizing: border-box;
 }
 body{
+  width: fit-content;
   display: grid;
   margin-top: 0px;
 }
