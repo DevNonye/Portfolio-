@@ -2,7 +2,6 @@ html{
   box-sizing: border-box;
 }
 body{
-  width: fit-content;
   display: grid;
   margin-top: 0px;
 }
@@ -159,7 +158,7 @@ article p{
   margin: 10px;
 }
 .portfolio-item img{
- width: 25em;
+ width: 90%;
  height: 15em;
 }
 #footer{
@@ -190,10 +189,6 @@ media only screen and (max-width: 600px){
     main {
         width: 100%;
     }
-    .portfolio-items {
-        flex: 1 1 33%;
-    }
-   
 }
 
 @media only screen and (min-width: 401px) and (max-width: 524px) {
@@ -201,17 +196,10 @@ media only screen and (max-width: 600px){
     main {
         width: 100%;
     }
-
-    .portfolio-items {
-        flex: 1 1 33%;
-    }
 }
 
 @media only screen and  (min-width: 525px) and (max-width: 760px) {
     main {
         width: 100%;
-    }
-    .portfolio-items {
-        flex: 1 1 33%;
     }
 }
